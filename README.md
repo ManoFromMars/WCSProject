@@ -9,3 +9,11 @@
 ## Un lien intéressant  
 [Liste de conventions et standards en programmation](https://github.com/Kristories/awesome-guidelines.git)
 
+
+## Comment faire un commit en ligne de commande  
+### Premier commit  
+	$ git add .
+	$ git commit - m "initial commit"  
+### Commit suivant  
+	$ git add chemin_vers_mon_fichier
+	$ git commit -m "message du commit"
