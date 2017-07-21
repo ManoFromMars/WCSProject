@@ -1,0 +1,190 @@
+/*Feuille de style projet WILD CIRCUS */
+
+@import url("https://fonts.googleapis.com/css?family=Lekton|Loved+by+the+King");
+
+/* STYLES GENERIQUES */
+
+body {
+	margin: 0 auto;
+	background-color: #faf3e8;
+}
+
+header {
+	background: url("https://img4.hostingpics.net/pics/382341ZionSepia.jpg");
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+
+h1,h2 {
+		font-family: 'Loved by the King', cursive;
+}
+
+p, table {
+	font-family: 'Lekton', sans-serif;
+	font-size: 1.1em;
+	line-height: 1.4em;
+	text-align: justify;
+	margin : 20px;
+}
+
+table {
+	border-collapse: separate;
+    border-spacing: 30px 5px;
+}
+
+a {
+	text-decoration: none;
+	font-size:1.2em;
+	color:#af7d28;
+	font-weight: bold;
+	padding:10px;
+}
+
+a:hover {
+	color:#aa0000;
+}
+
+/* STYLES SPECIFIQUES HEADER */
+
+header h1 {
+	font-size: 3em;
+	line-height: 0.7em;
+	text-shadow: 2px 2px 6px;
+}
+
+header h2 {
+	margin-top: 140px;
+	padding : 0 6px 180px 6px;
+	font-size: 1.5em;
+	font-family: 'Lekton', sans-serif;
+}
+
+header img {
+	margin-top: 40px;
+}
+
+nav {
+	font-family: 'Lekton', sans-serif;
+	font-size:1.1em;
+	padding-top: 5px;
+}
+
+/* STYLES SPECIFIQUES CONTENT */
+
+button {
+	display:block;
+	margin: 5px auto 40px;
+	padding: 3px 15px;
+	border-radius: 8px;
+	background-color: #af7d28;
+	color:white;
+	font-size: 1.2em;
+	font-family: 'Lekton', sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+
+#main {
+	margin: 0 5px;
+}
+
+#main h1 {
+	font-size: 1.8em;
+	display: inline;
+	margin : 30px 10px;
+	padding:2px 15px 2px 5px;
+	background-color: black;
+	border-radius: 15px;
+	color: #d7ab63;
+}
+
+#about, #shows, #perf {
+	margin: 30px 0;
+}
+
+#about p {
+	margin: 20px 30px;
+}
+
+
+#animals, #humans {
+   	display:flex;
+   	flex-wrap:wrap;
+    justify-content: center;  
+}
+
+#animals {
+	margin-top: 20px;
+}
+
+.strong {
+	font-weight: bold;
+}
+
+.accroche {
+	font-family: 'Loved by the King', cursive;
+	font-size: 1.6em;
+	text-align: center;
+}
+
+.Performer {
+	margin:7px;
+	justify-content: space-around;
+	max-width: 350px;
+	height:465px;
+	flex:1;
+	background-size: cover;
+    background-position: center;
+ 	border : 4px solid white;
+ 	box-shadow: 3px 3px 2px;
+}
+
+.Performer h2,p {
+	margin:7px;
+	padding:3px;
+	line-height: 1.2em;
+}
+
+.Performer p {
+	text-align: left;
+	background-color: rgba(255,255,255, 0.2);
+	font-size:1.1em;
+	font-weight:bold;
+}
+
+.Maritza{
+  background-image: url("https://img4.hostingpics.net/pics/870658MaritzaSepia.jpg");
+}
+.Melmann{
+  background-image: url("https://img4.hostingpics.net/pics/465607MelmannSepia.jpg");
+}
+.Otto{
+  background-image: url("https://img4.hostingpics.net/pics/419997OttoSepia.jpg");
+}
+.Luke{
+  background-image: url("https://img4.hostingpics.net/pics/913715LukeSepia.jpg");
+}
+.Bob{
+  background-image: url("https://img4.hostingpics.net/pics/953653BobSepia.jpg");
+}
+.Tommy{
+  background-image: url("https://img4.hostingpics.net/pics/141489TommySepia.jpg");
+}
+
+/*STYLES SPECIFIQUES FOOTER*/
+
+footer {
+	background-color: black;
+	padding: 25px 10px;
+	color: #faf3e8;
+}
+
+footer p {
+		text-align: center;
+		line-height: 1.2em;
+}
+
+#small {
+	font-size: 0.7em;
+}
