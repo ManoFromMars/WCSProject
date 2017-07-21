@@ -13,7 +13,7 @@
 ## Comment faire un commit en ligne de commande  
 ### Premier commit  
 	$ git add .
-	$ git commit - m "initial commit"  
+	$ git commit -m "first commit"  
 ### Commit suivant  
 	$ git add chemin_vers_mon_fichier
 	$ git commit -m "message du commit"
